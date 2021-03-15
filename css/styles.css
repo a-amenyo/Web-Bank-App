@@ -41,6 +41,8 @@ body{
     background-color: navy;
     color: white;
     cursor: pointer;
+    position: fixed;
+    width: 100%;
     /* border: 1px solid yellow; */
 }
 .navbar{
@@ -59,7 +61,7 @@ body{
     margin-top: 1px;
     font-family:  monospace;
     font-weight: 5em;
-    border: 1px soid white;
+    /* border: 1px soid white; */
 
 }
 
@@ -86,7 +88,4 @@ body{
     font-family:  monospace;
     font-weight: 5em;
     border: 1px soid white;
-}
-.menu-1{
-    /* border: 1px solid green; */
 }
