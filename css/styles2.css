@@ -1,0 +1,28 @@
+/* MAIN BODY, LANDING PAGE */
+.main-body{
+    display: grid;
+    margin-right: 0%;
+    place-items: center;
+    /* border: 2px solid yellow; */
+
+}
+.intro-msg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: teal; */
+}
+.intro-msg p{
+    font-family:  monospace;
+    font-weight: 5em;
+    border: 1px soid white;
+}
+
+
+.cover{
+    display: grid;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.cover img{
+    width: 60vw;
+}

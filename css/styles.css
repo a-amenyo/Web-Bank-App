@@ -1,0 +1,92 @@
+/* NAVIGATION , HEADER */
+
+*{
+    /* removes default styles */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: serif;
+    font-size: 20px;
+    width: 100%;
+    min-height: 100vh;
+}
+.container{
+    display: grid;
+    width: 100%;
+    /* do not set height cos it is a grid, 
+    the more content you add, the page will simply adjust */
+
+}
+.logo{
+    /* border: 1px solid white; */
+    width: 50px;
+    margin-left: 0rem;
+   
+
+}
+
+[class^="nav-"]{
+    background-color: navy;
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
+.navigation{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 3fr ;
+    grid-template-rows: 60px;
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+    /* border: 1px solid yellow; */
+}
+.navbar{
+    width: 100%;
+    height: 100%;
+}
+.nav-amali{
+    display: inline-block;
+    width: 120px;
+    height: 90%;
+    border: 1px solid white;
+}
+.nav-amali > p {
+    font-size: 15px;
+    /* border: 1px solid white; */
+    margin-top: 1px;
+    font-family:  monospace;
+    font-weight: 5em;
+    border: 1px soid white;
+
+}
+
+.nav-menu{
+    /* border: 3px solid blue; */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(6,1fr); 
+    width: 100%;
+    padding: 15px;
+    place-items: center;
+    background-color: teal;
+    cursor: pointer;
+}
+.nav-menu a{
+    text-decoration: none;
+}
+.nav-menu a:hover {
+    color: white;
+
+
+}
+.nav-menu > div{
+    font-family:  monospace;
+    font-weight: 5em;
+    border: 1px soid white;
+}
+.menu-1{
+    /* border: 1px solid green; */
+}
