@@ -1,14 +1,20 @@
-var myIndex = 0;
-coverSlides();
+const imgSlides = document.querySelector('.img-slides');
+const carouselImages = document.querySelectorAll('img-slides img');
+ 
+//buttons
+const prevBtn = document.querySelector('prev-btn');
+const nextBtn = document.querySelector('nxt-btn');
 
-function coverSlides() {
-  var i;
-  var x = document.getElementsByClassName("slides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(coverSlides, 5000); // Change image every 5 seconds
-}
+//Counter
+let counter = 1;
+const size = carouselImages[0].clientWidth;
+
+imgSlides.getElementsByClassName.transform = 'translateX(' +( - size * counter ) + 'px)';
+
+//button listeners
+nextBtn.addEventListener('click' , ()=>{
+  imgSlides.style.transition= "transform 0.5s ease-in-out";
+  counter ++;
+  console.log(counter);
+
+});
