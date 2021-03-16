@@ -29,6 +29,9 @@ footer{
     bottom: 0;
     background:#00439c;
 }
+.single-footer{
+   padding-left: 25px;
+}
 .single-footer ul li a {
     font-family:monospace;
 }
