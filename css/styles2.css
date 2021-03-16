@@ -54,28 +54,3 @@
  #bankw:hover{
      color: blue;
  }
-
- .social-media{
-    text-align: center;
-    /* border: 1px solid violet; */
-    padding: 5px 5px 5px 5px ;
-    background-color: white;
-    margin-top: 0px;
-}
-.social-media img{
-    height: 70px;
-    display: inline-block;
-    margin-top: 5px;
-    cursor: pointer;
-}
-.social-media h2{
-    font-family: monospace;
-    color: #282846;
-    height: 40px ;
-    font-weight: 400;
-    font-style: normal;
-    margin: 5px;
-    font-size: 30px;
-    padding: 10px 15px 0;
-    /* border: 1px solid red; */
-}

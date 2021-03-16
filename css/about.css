@@ -92,16 +92,17 @@ body{
 /* main body */
 .wel-container{
     padding-top: 300px;
-    background-image: url("../assets/aboutus.jpg");
+    background-image: url("../assets/slide_1.jpg");
     background-repeat: no-repeat;
-    height: 900px;
+    height: 700px;
     text-align: center;
     width: 100%;
 }
 
 .wel-container p{
     font-family: monospace;
-    color:#1e212d;
+    /* color:#1e212d; */
+    color: white;
     font-size: 2em;
     /* border: 1px solid white; */
 }
@@ -111,6 +112,7 @@ body{
 }
 
 .overview{
+    background-image: url("../assets/slide_2.jpg");
     background-image: url("../assets/slide_2.jpg");
     margin-top: 0;
     display: grid;
@@ -127,34 +129,64 @@ body{
     color:white;
 }
 .aboutpic{
-    background-image: url("../assets/aboutus_wide.jpg");
+
 }
-#mc{
-    border: 1px solid yellow;
-    font-family: monospace;
-    color:navy;
-}
+
 #mc1{
     /* border: 1px solid yellow; */
-    
     font-family: monospace;
     color: white;
 }
 .overview2{
-    background-image:url("");
     margin-top: 0;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    background-color: #d8ebe4;
+    grid-template-columns: 1fr;
     /* border: 1px solid red; */
     place-items: center;
     place-content: center;
+    padding:  10px 10px 10px;
+}
+#mc{
+    margin-top: 0;
+    font-family: monospace;
+    color : #435560;
+    padding: 2px 10px 10px 10px;
 }
 .overview2 h2 {
     font-family: monospace;
-    color: navy;
+    color: #435560;
+    /* border-bottom: 1px;
+    border-bottom: 2px dotted;
+    border-bottom: medium dashed blue; */
+    /* border-bottom: thin;
+    list-style: cross-fade();
+    border-bottom: 2px solid #888; */
 }
 .overview2 p{
-        font-family: monospace;
+    font-family: monospace;
     color: navy;
+}
+.overview3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    background-color: #d8ebe4;
+    padding: 10px 10px 10px 10px;
+    place-content: center;
+}
+#vish{
+    color:#435560;
+    font-family: monospace;
+    text-align: center;
 
+}
+
+
+#mc3{
+    margin-top: 0;
+    font-family: monospace;
+    color : #435560;
+    padding: 2px 10px 10px 10px;
+    
 }

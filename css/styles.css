@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid yellow; */
 }
 body{
     font-family: serif;
@@ -14,7 +15,7 @@ body{
 }
 .container{
     display: grid;
-    width: 100%;
+    grid-template-columns: 1fr;
     /* do not set height cos it is a grid, 
     the more content you add, the page will simply adjust */
 
@@ -69,8 +70,8 @@ body{
 .nav-menu{
     /* border: 3px solid blue; */
     display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(6,1fr); 
+    gap: 1px;
+    grid-template-columns: repeat(5,1fr); 
     width: 100%;
     padding: 15px;
     place-items: center;
