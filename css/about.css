@@ -48,7 +48,7 @@ body{
 .navbar{
     width: 100%;
     height: 100%;
-    background-color: #00439c;
+    /* background-color: #00439c; */
 }
 .nav-amali{
     display: inline-block;
@@ -63,7 +63,6 @@ body{
     font-family:  monospace;
     font-weight: 5em;
     /* border: 1px soid white; */
-
 }
 
 .nav-menu{
@@ -83,11 +82,79 @@ body{
 }
 .nav-menu a:hover {
     color: white;
-
-
 }
 .nav-menu > div{
     font-family:  monospace;
     font-weight: 5em;
     border: 1px soid white;
+}
+
+/* main body */
+.wel-container{
+    padding-top: 300px;
+    background-image: url("../assets/aboutus.jpg");
+    background-repeat: no-repeat;
+    height: 900px;
+    text-align: center;
+    width: 100%;
+}
+
+.wel-container p{
+    font-family: monospace;
+    color:#1e212d;
+    font-size: 2em;
+    /* border: 1px solid white; */
+}
+.overview{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.overview{
+    background-image: url("../assets/slide_2.jpg");
+    margin-top: 0;
+    display: grid;
+    padding: 20px 25px 25px 25px;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid red; */
+    place-items: center;
+    place-content: center;
+
+}
+.overview h2 {
+    font-family: monospace;
+    color:white;
+}
+.aboutpic{
+    background-image: url("../assets/aboutus_wide.jpg");
+}
+#mc{
+    border: 1px solid yellow;
+    font-family: monospace;
+    color:navy;
+}
+#mc1{
+    /* border: 1px solid yellow; */
+    
+    font-family: monospace;
+    color: white;
+}
+.overview2{
+    background-image:url("");
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid red; */
+    place-items: center;
+    place-content: center;
+}
+.overview2 h2 {
+    font-family: monospace;
+    color: navy;
+}
+.overview2 p{
+        font-family: monospace;
+    color: navy;
+
 }
