@@ -6,12 +6,114 @@
     height: 700px;
     text-align: center;
     width: 100%;
+
 }
 
-.contact-container p{
+.contact-container >p{
     font-family: monospace;
     /* color:#1e212d; */
-    color: grey;
+    color: #314e52;
     font-size: 2em;
     /* border: 1px solid white; */
+}
+/* #talk{
+
+} */
+.contact-modes{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    background-color: #d3e0dc;
+    
+}
+.contact-modes h3{
+    font-family: monospace;
+    color: #252525;
+    
+}
+#contact-info:hover{
+    color: #161d6f;
+
+}
+.contact-modes >div{
+    font-family: monospace;
+    cursor: pointer;
+}
+.know-ov{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    background-color:#487e95;
+    padding: 10px 10px 10px 10px;
+    place-content: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.what{
+    /* border: 1px solid black; */
+    border-right: 1px solid #d8ebe4;
+    text-align: center;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+}
+.what h2{
+    color: white;
+}
+.send{
+        /* border: 1px solid black; */
+        text-align: center;
+        width: 100%;
+        padding: 15px 15px 15px 15px;
+
+}
+.send h2{
+    color: white;
+}
+#callusbtn{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    cursor: pointer;
+    /* display: inline-block; */
+    padding: 8px 25px;
+    margin: 5px 5px 0px 0px;
+    color: #282846;
+    background-color: #d3e0ea;
+    transition: 0.3s ease;
+    border-radius: 20px;
+    font-size: 1rem;
+    border: 2px solid #214151;
+    text-align: center;
+}
+#callusbtn:hover{
+    color: navy;
+    border-left: 5px solid #214151;
+}
+#sendbtn{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    cursor: pointer;
+    /* display: inline-block; */
+    padding: 8px 25px;
+    margin: 5px 5px 0px 0px;
+    color: #282846;
+    background-color: #d3e0ea;
+    transition: 0.35s ease;
+    border-radius: 20px;
+    font-size: 1rem;
+    border: 2px solid #214151;
+    text-align: center;
+}
+#sendbtn:hover{
+    color: navy;
+    border-left: 5px solid #214151;
+
 }
