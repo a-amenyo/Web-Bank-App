@@ -9,12 +9,13 @@ const nextBtn = document.querySelector('nxt-btn');
 let counter = 1;
 const size = carouselImages[0].clientWidth;
 
-imgSlides.getElementsByClassName.transform = 'translateX(' +( - size * counter ) + 'px)';
+imgSlides.getElementsByClassName.transform = 'translateX(' +( - size * counter ) + 'px)' ;
 
 //button listeners
 nextBtn.addEventListener('click' , ()=>{
   imgSlides.style.transition= "transform 0.5s ease-in-out";
   counter ++;
+  imgSlides.getElementsByClassName.transform = 'translateX(' +( - size * counter ) + 'px)' ;
   console.log(counter);
 
 });
