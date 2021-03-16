@@ -56,4 +56,8 @@
  }
  #bankw a:hover{
      color: blue;
+    
+ }
+ #bankw:hover{
+    border-left: 5px solid #214151;
  }

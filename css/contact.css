@@ -1,0 +1,17 @@
+/* main body */
+.contact-container{
+    padding-top: 300px;
+    background-image: url("../assets/contact.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    text-align: center;
+    width: 100%;
+}
+
+.contact-container p{
+    font-family: monospace;
+    /* color:#1e212d; */
+    color: grey;
+    font-size: 2em;
+    /* border: 1px solid white; */
+}

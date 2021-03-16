@@ -1,4 +1,4 @@
-
+/* delete all this below-start here */
 *{
     /* removes default styles */
     margin: 0;
@@ -88,6 +88,8 @@ body{
     border: 1px soid white;
 }
 
+/* end delete here */
+
 /* main body */
 .prod-container{
     padding-top: 300px;
@@ -105,27 +107,27 @@ body{
     font-size: 2em;
     /* border: 1px solid white; */
 }
-.overview{
+/* .overview{
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+} */
 
-.overview{
+/* .overview{
     background-image: url("../assets/slide_2.jpg");
     margin-top: 0;
     display: grid;
     padding: 20px 25px 25px 25px;
     width: 100%;
     grid-template-columns: repeat(2,1fr);
-    /* border: 1px solid red; */
+    border: 1px solid red;
     place-items: center;
     place-content: center;
 
-}
-.overview h2 {
+} */
+/* .overview h2 {
     font-family: monospace;
     color:white;
-}
+} */
 
 #mc1{
     /* border: 1px solid yellow; */
@@ -270,6 +272,7 @@ body{
 }
 #lrn:hover{
     color: navy;
+    border-left: 5px solid #214151;
 }
 
 .call-us{
@@ -302,6 +305,7 @@ body{
 }
 #call:hover{
     color: navy;
+    border-left: 5px solid #214151;
 }
 #phone-svg{
     width: 50px;
@@ -309,4 +313,30 @@ body{
     margin-bottom: 0.009px;
     display: inline-block;
     border: 1px solid green;
+}
+.tb{
+    margin-top: 0;
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr;
+    /* border: 1px solid red; */
+    place-items: center;
+    place-content: center;
+    padding:  10px 10px 10px;
+}
+#tbc{
+    margin-top: 0;
+    font-family: monospace;
+    color : grey;
+    padding: 2px 10px 10px 10px;
+}
+.tb h2 {
+    font-family: monospace;
+    color: grey;
+    /* border-bottom: 1px;
+    border-bottom: 2px dotted;
+    border-bottom: medium dashed blue; */
+    /* border-bottom: thin;
+    list-style: cross-fade();
+    border-bottom: 2px solid #888; */
 }
