@@ -23,12 +23,12 @@ body{
 .logo{
     /* border: 1px solid white; */
     width: 50px;
-    margin-left: 0rem;
+    text-align: center;
 
 }
 
 [class^="nav-"]{
-    background-color:#00439c;
+    background-color:white;
     display: grid;
     place-items: center;
     place-content: center;
@@ -38,7 +38,7 @@ body{
     gap: 5px;
     grid-template-columns: 1fr 3fr ;
     grid-template-rows: 60px;
-    background-color:#00439c;
+    background-color: white;
     color: white;
     cursor: pointer;
     position: fixed;
@@ -49,13 +49,10 @@ body{
 .navbar{
     width: 100%;
     height: 100%;
-    background-color: #00439c;
 }
 .nav-amali{
     display: inline-block;
     width: 120px;
-
-
 }
 .nav-amali > p {
     font-size: 15px;
@@ -82,9 +79,9 @@ body{
     text-decoration: none;
     color: navy;
 }
-.nav-menu a:hover {
+/* .nav-menu a:hover {
     color: white;
-}
+} */
 .nav-menu > div{
     font-family:  monospace;
     font-weight: 5em;
