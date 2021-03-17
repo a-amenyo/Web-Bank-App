@@ -87,6 +87,7 @@
     margin: 5px 5px 0px 0px;
     color: #282846;
     background-color: #d3e0ea;
+    /* background-color: transparent; */
     transition: 0.3s ease;
     border-radius: 20px;
     font-size: 1rem;
