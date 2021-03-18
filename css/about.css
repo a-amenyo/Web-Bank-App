@@ -1,9 +1,9 @@
 /* about main body */
 .wel-container{
     padding-top: 300px;
-    background-image: url("../assets/slide_1.jpg");
+    background-image: url("../assets/about.jpg");
     background-repeat: no-repeat;
-    height: 700px;
+    height: 530px;
     text-align: center;
     width: 100%;
 }
@@ -14,6 +14,9 @@
     /* color:#1e212d; */
     color: white;
     font-size: 2em;
+   text-align: right;
+   padding-right: 40px;
+    /* padding-left: 270px; */
     /* border: 1px solid white; */
 }
 .overview{
