@@ -54,6 +54,7 @@ h2{
     display: inline-block;
     margin-top: 5px;
     cursor: pointer;
+    box-shadow: 10px 5px 5px#999;
 }
 .social-media h2{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 

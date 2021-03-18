@@ -6,7 +6,7 @@
     height: 700px;
     text-align: center;
     width: 100%;
-
+    
 }
 
 .contact-container >p{
@@ -15,6 +15,8 @@
     /* color:#1e212d; */
     color: #314e52;
     font-size: 2em;
+
+
     /* border: 1px solid white; */
 }
 .icon{
@@ -33,10 +35,9 @@
 }
 .icon-3{
     width: 30px;
+    
 }
-/* #talk{
 
-} */
 .contact-modes{
     padding-top: 20px;
     padding-bottom: 20px;
