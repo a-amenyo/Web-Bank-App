@@ -76,7 +76,13 @@ body{
     place-items: center;
     background-color: #d8ebe4;
     cursor: pointer;
+    transition: background-color .5s;
 }
+/* .nav-menu:hover{
+    background-color:transparent;
+    color: white;
+
+} */
 .nav-menu a{
     text-decoration: none;
     color: navy;

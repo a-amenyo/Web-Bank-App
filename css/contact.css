@@ -17,6 +17,23 @@
     font-size: 2em;
     /* border: 1px solid white; */
 }
+.icon{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column: 1/4;
+    gap: 415px;
+    padding: 20px 50px 0px 50px;
+
+}
+.icon-1{
+    width: 30px;
+}
+.icon-2{
+    width: 30px;
+}
+.icon-3{
+    width: 30px;
+}
 /* #talk{
 
 } */
@@ -24,17 +41,48 @@
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
+    place-content: center;
+    place-items: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0.5fr);
     margin: 0;
     background-color: #d3e0dc;
-    
+}
+
+.forms{
+    grid-column: 1/4;
+}
+/* #phone{
+    margin-left: 25px;
+} */
+
+ li button{
+       /* text-align: center; */
+   background-color:#d8ebe4 ;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   border-radius: 20px;
+   padding: 8px 25px;
+   margin-top: 5px;
+   border: 2px solid #214151;
+   /* border: 1px solid yellow; */
+   align-content: center;
+   cursor: pointer;
+
+}
+.forms li {
+    list-style: none;
+}
+li button:hover{
+    color: navy;
+    border-left: 5px solid #214151;
 }
 .contact-modes h3{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
     'Open Sans', 'Helvetica Neue', sans-serif;;
     color: #252525;
-    
+    margin-top: 0px;
+ 
 }
 #contact-info:hover{
     color: #161d6f;
@@ -44,6 +92,16 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
     'Open Sans', 'Helvetica Neue', sans-serif;;
     cursor: pointer;
+}
+
+.contact-forms{
+    display: grid;
+    border: 1px solid white;
+    grid-column: 1/4;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .know-ov{
     display: grid;
