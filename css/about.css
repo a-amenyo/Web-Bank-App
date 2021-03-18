@@ -118,16 +118,21 @@
 .md{
     display: grid;
     gap: 5px;
-    padding: 10px 10px 10px 10px ;
+    place-items: center;
+    padding: 15px 15px 15px 15px ;
     place-content: center;
     background-color: whitesmoke ;
     border-radius: 2px;
     box-shadow: 10px 5px 5px#999;
 }
+#cs{
+    width: 510px;
+
+}
 .team-title{
     margin-top: 10px;
     /* border: 1px solid black; */
-    padding-left: 15px;
+    /* padding-left: 15px; */
     border: 1px solid #999;
     border-radius: 3px;
     background-color: #333;
