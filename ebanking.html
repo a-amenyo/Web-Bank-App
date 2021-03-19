@@ -43,23 +43,32 @@
     </div>
     <!-- Login card starts here  -->
 
-    <div class="ebank-login">
+    <div id="ebank-login">
 
         <div class="edisplay">
             <h3>Sign In</h3>
-            <input type="text"  placeholder="Username">
+            <input type="name"  placeholder="Username">
             <input type="password" placeholder="Password">
-            <input type="submit" value="Log In">
+            <input type="submit" id="loginBTN" value="Log In">
         </div>
 
     </div>
 
-    <div class="ebank-deposit">
+    <div id="ebank-deposit">
 
         <div class="edisplay">
             <h3>Deposit</h3>
-            <input type="text"  placeholder="Amount">
-            <input type="submit" value="Deposit">
+            <input type="text"  id="depositAmount" placeholder="Amount">
+            <input type="submit" id="depositBTN" value="Deposit">
+        </div>
+
+    </div>
+
+    <div id="ebank-ouput">
+
+        <div class="edisplay">
+            <h3>Welcome <span id="usernameID"></span></h3>
+            <h3>Amount: <span id="amount"></span></h3>
         </div>
 
     </div>
@@ -111,7 +120,7 @@
                     <li><a href="#">FAQs</a></li>
                     <li><a href="#">Business Overview</a></li>
                     <li><a href="#">What We Do</a></li>
-                </ul </div>
+                </ul>
             </div>
 
     </footer>
@@ -123,7 +132,7 @@
 
 
 
-    <script src="js/script.js"></script>
+    <script src="js/deposit.js"></script>
 </body>
 
 

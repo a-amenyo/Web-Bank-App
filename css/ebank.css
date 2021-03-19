@@ -12,14 +12,17 @@
     color: white;
     font-size: 2em;
 }
-.ebank-login{
+#ebank-login{
     display: grid;
     border: 1px solid green;
+    background-image: url("../assets/overview2.jpg");
     grid-column: 2/4;
     grid-template-columns: repeat(3, 1fr );
 }
 .edisplay{
-    margin-top: 5px;
+    background-image: url("../assets/ebank.png");
+    /* margin-top: 5px; */
+    text-align: center;
     margin-bottom: 5px;
     border: 1px solid black;
     height: 300px;
@@ -28,8 +31,20 @@
 
 }
 
-.ebank-deposit{
+#ebank-deposit{
     display: grid;
+    border: 1px solid green;
+    grid-column: 2/4;
+    grid-template-columns: repeat(3, 1fr );
+
+}
+.edisplay>h3{
+    color: white;
+}
+
+#ebank-ouput{
+    display: grid;
+    background-image: url(../assets/home2.jpg);
     border: 1px solid green;
     grid-column: 2/4;
     grid-template-columns: repeat(3, 1fr );
