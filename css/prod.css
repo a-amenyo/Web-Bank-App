@@ -27,7 +27,6 @@ body{
 }
 
 [class^="nav-"]{
-    background-color:#00439c;
     display: grid;
     place-items: center;
     place-content: center;
@@ -111,28 +110,6 @@ body{
     font-size: 2em;
     /* border: 1px solid white; */
 }
-/* .overview{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-} */
-
-/* .overview{
-    background-image: url("../assets/slide_2.jpg");
-    margin-top: 0;
-    display: grid;
-    padding: 20px 25px 25px 25px;
-    width: 100%;
-    grid-template-columns: repeat(2,1fr);
-    border: 1px solid red;
-    place-items: center;
-    place-content: center;
-
-} */
-/* .overview h2 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
-    'Open Sans', 'Helvetica Neue', sans-serif;;
-    color:white;
-} */
 
 #mc1{
     /* border: 1px solid yellow; */
@@ -355,10 +332,23 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
     'Open Sans', 'Helvetica Neue', sans-serif;
     color: grey;
-    /* border-bottom: 1px;
-    border-bottom: 2px dotted;
-    border-bottom: medium dashed blue; */
-    /* border-bottom: thin;
-    list-style: cross-fade();
-    border-bottom: 2px solid #888; */
+
 }
+
+/* Search Box  */
+.search-box {
+    justify-content: center;
+    display: flex;
+    border: 2px solid #262626;
+    line-height: 40px;
+    border-radius: 25px;
+    padding: 0px 20px 0px 10px;
+  }
+  .search-txt {
+    outline: none;
+    border-radius: 25px;
+    border: none;
+    width: 220px;
+    font-size: 16px;
+    padding: 5px 15px 5px 5px;
+  }
