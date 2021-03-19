@@ -12,3 +12,26 @@
     color: white;
     font-size: 2em;
 }
+.ebank-login{
+    display: grid;
+    border: 1px solid green;
+    grid-column: 2/4;
+    grid-template-columns: repeat(3, 1fr );
+}
+.edisplay{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    height: 300px;
+    grid-column: 2/3;
+    border-radius: 5px;
+
+}
+
+.ebank-deposit{
+    display: grid;
+    border: 1px solid green;
+    grid-column: 2/4;
+    grid-template-columns: repeat(3, 1fr );
+
+}
