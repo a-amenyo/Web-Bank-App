@@ -46,8 +46,7 @@
 
 #ebank-ouput{
     display: grid;
-    background-image: url(../assets/home2.jpg);
-
+    background-color: #d8ebe4;
     grid-column: 2/4;
     grid-template-columns: repeat(3, 1fr );
 
